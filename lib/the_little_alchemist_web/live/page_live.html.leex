@@ -1,0 +1,11 @@
+<card>
+  <%= @page.content %>
+</card>
+<controls>
+  <%= if @page.id > 1 do %>
+    <button phx-click="previous" phx-value-id="<%= @page.id%>">&larr;</button>
+  <% end %>
+  <%= if @page.id < @total_pages do %>
+    <button phx-click="next" phx-value-id="<%= @page.id%>">&rarr;</button>
+  <% end %>
+</controls>

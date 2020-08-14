@@ -1,11 +1,12 @@
-<card>
-  <%= @page.content %>
+<card class="card">
+  <%= raw @content %>
+  <controls class="controls">
+    <%= unless @first_page? do %>
+      <control phx-click="previous" phx-value-page="<%= @page_number%>" style="margin:50px" phx-window-keyup="key_previous">&larr;</control>
+    <% end %>
+    <%= unless @last_page? do %>
+      <control phx-click="next" phx-value-page="<%= @page_number%>" style="margin:50px" phx-window-keyup="key_next">&rarr;</control>
+    <% end %>
+  </controls>
+  <page><%= @page_number %></page>
 </card>
-<controls>
-  <%= if @page.id > 1 do %>
-    <button phx-click="previous" phx-value-id="<%= @page.id%>">&larr;</button>
-  <% end %>
-  <%= if @page.id < @total_pages do %>
-    <button phx-click="next" phx-value-id="<%= @page.id%>">&rarr;</button>
-  <% end %>
-</controls>

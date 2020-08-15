@@ -9,6 +9,6 @@ _I know this is trivial, but will introduce complexity later_
 `value` near fn is called as parameter of the function.  
 inc.(1) will give 2. Here 1 is called argument which is passed to function parameter. Hence value will become 1 at the start of the function.  
 inc.(3) will give 4
-> note . in between function name and (). This is one type of function. Another type we will see later.  
+> note `.` in between function name and (). This is one type of function. We will see another type later.  
 
 _I introduced this function first because I want to execute everything in iex. Other types require Module files_

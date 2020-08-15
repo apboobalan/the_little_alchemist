@@ -1,3 +1,3 @@
 ## A little book on elixir
 
-_Welcome to the journey._
+>_Welcome to the journey._

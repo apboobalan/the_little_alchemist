@@ -1,4 +1,4 @@
-## Header according to the number of #
+## Header according to the number of '#'
 _italic_ surrounded by _  
 **bold** surrounded by **
 ```

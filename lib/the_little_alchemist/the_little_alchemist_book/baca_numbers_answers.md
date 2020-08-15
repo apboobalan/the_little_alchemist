@@ -6,4 +6,4 @@ Ya we can use underscores between digits to make it more readable. But it won't 
 - 1_00_000 = 1 lakh
 - 1_000_000 = 1 million
 
-Use it according to your convinience.
+We can use it according to our convenience.

@@ -1,5 +1,3 @@
-## Welcome
+## A little book on elixir
 
-### A little book on elixir
-
-___Welcome to the journey___
+_Welcome to the journey._

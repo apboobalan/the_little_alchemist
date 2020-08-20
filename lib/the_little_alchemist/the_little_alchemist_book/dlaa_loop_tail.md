@@ -1,0 +1,3 @@
+Did you catch the difference between the functions. The first sum_of_integers calls the same function without any operation at the end. We just jump from on function to another. But the next function calls the same function with some operation of `+`. We are having a task remaining. So  if we keep some operation remaining the operation is kept is memory before the function value is deduced.  
+`Tail call optimization` is happened in the first scenario.  
+When the last part (tail) of function is simply a function call, the new function is called without storing anything in memory.

@@ -8,3 +8,5 @@ it's clear right.
 How can we get back the data? `weather[:temperature] -> 24.5`
 
 So, %{key => value} represents a map. `key` and `value` can be of any datatypes, even map, tuple.(will see an example).
+
+---duplicate keys?

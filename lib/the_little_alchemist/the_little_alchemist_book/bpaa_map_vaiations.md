@@ -7,4 +7,4 @@ Hence we have a special form to create and retrieve value from map, when we use 
 we switch : from front to back. :temperature -> temperature:  
 and remove =>
 
-`%{:temperature => 24.5} -> %{temperature: 24.5}`
+`%{:temperature => 24.5} would be used as %{temperature: 24.5}`

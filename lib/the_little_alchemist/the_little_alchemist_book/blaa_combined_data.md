@@ -9,4 +9,4 @@ But there are instances where we want to represent concepts with more than one v
 - How would you represent specification of a car.
 - How would you represent points in a 2d environment.
 
-Next we will see how to mix and match the already seen data types, following some conventions, to represent complex concepts.
+Next we will see how to mix and match these data types, following some conventions to represent complex concepts.

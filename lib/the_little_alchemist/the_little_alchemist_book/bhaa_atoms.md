@@ -1,11 +1,13 @@
-### Here comes the somewhat unique concept.
+### Here comes the 'somewhat' unique concept.
 
-We want to name a concept and we want to use it at many places.  
+We want to name a concept and want to use it at many places.  
 We can say strings.  
-But strings are commonly used to manipulate concepts, while atoms are used to name concepts.
-
+But strings are commonly used to **manipulate concepts**, while the next concept(atoms) are used to **name concepts**.
+```elixir
 name = "Alchemist"  
-"Welcome #{name}!" will produce "Welcome Alchemist!"
+"Welcome #{name}!"
+``` 
+outputs `"Welcome Alchemist!"`
 
 _Yes we are interpolating strings. Inserting values into a string_  
-`#{}` The expressions inside {} will be evaluated and converted to strings and then inserted into the containing string.
+`#{}` The expressions inside **{}** will be evaluated and converted to strings and then inserted into the containing string.

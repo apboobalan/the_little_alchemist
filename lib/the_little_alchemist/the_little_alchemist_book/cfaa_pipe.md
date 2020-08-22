@@ -11,4 +11,4 @@ end
 
 > we used to write `inc_by.(inc_by.(1, 4), 5)`
 
-Which is little bit confusing when compared to piped style.
+Which is little bit confusing when compared to pipe(`|>`) style.

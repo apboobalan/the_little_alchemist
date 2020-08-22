@@ -1,4 +1,4 @@
-In addition we have <>, [|], %{map | key: value} as operators to manipulate strings, lists and maps.
+In addition we have `<>` for strings, ``[|]`` for lists and ``%{map | key: value}`` for manipulating maps.
 - `"Hello"<>"Alchemist"` will join strings and give `"HelloAlchemist"`
 - [|]  
     `head = "Alchemist 1"`  
@@ -7,6 +7,5 @@ In addition we have <>, [|], %{map | key: value} as operators to manipulate stri
     > note that head is a simple type and tail is a list.
 - map  
     `weather = %{temperature: 20}`  
-    `%{weather | temperature: 24} -> %{temperature: 24}`  
-    Here we updated temperature with new value.  
+    `%{weather | temperature: 24}` will update temperature `%{temperature: 24}`    
     > we can use this on existing keys only.

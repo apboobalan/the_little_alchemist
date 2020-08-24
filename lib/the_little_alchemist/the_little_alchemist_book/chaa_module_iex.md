@@ -5,4 +5,5 @@ For example,
 change `:world` to `:worlds` in playground.ex file.  
 Execute `r Playground` inside iex.
 Now execute `Playground.hello`.
-Now we get the updated result of `:worlds`
+Now we get the updated result of `:worlds`  
+To exit iex press ctrl+c twice.

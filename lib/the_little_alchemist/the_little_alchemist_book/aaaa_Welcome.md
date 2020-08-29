@@ -1,4 +1,4 @@
-## A little book on elixir
+## The Little Alchemist: Elixir
 
 >_Welcome to the journey._
 

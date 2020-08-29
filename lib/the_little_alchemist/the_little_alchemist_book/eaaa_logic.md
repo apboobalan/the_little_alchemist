@@ -1,6 +1,5 @@
-We have already seen some logic performed in the form of pattern matching using parameters passed to functions. Performing some operation based on pattern matching in function heads.  
-We can perform logics using case, cond and guard clauses.  
-We will write list_sum function using these mechanisms.
+We have already seen some logic performed, in the form of pattern matching using parameters passed to functions.  
+We can perform logics using `case`, `cond` and guard clauses. We will write `list_sum` function following these mechanisms.
 ```elixir
 def list_sum(list, acc) do
     case list do

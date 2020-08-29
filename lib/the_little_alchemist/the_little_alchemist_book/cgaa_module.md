@@ -5,12 +5,12 @@ In the terminal execute `mix new playground`
 - Note that this file has 
 ```elixir
 defmodule Playground do
-    def hello do
+    def hello() do
         :world
     end
 end
 ```
 `defmodule` defines a new module followed by name of the module which starts with an upper case. Between `do` and `end` we define functions.
 - Execute `iex -S mix` inside playground folder. It will open iex with this project's context.
-- Here execute `Playground.hello`.  
+- Here execute `Playground.hello()` inside iex.  
 If we get `:world` we successfully created elixir project.

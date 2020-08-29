@@ -4,7 +4,7 @@
 `{a, b} = {1, 2, 3}`  
 `[a, b] = {1, 2}`
 All these will raise MatchError,
-- :ok and :error atoms wont match in first case.  
+- :ok and :error atoms wont match in first case. (values are not matching)  
 - Length is not matching in next two scenarios. 
 - Final one won't match because left side is List and right side is Tuple.   
 

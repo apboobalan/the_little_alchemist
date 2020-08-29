@@ -2,16 +2,18 @@ We can define constants inside modules as Module attributes. There are many modu
 ```elixir
 defmodule Playground do
     @version 5
-    @status [:ready, :dispatch]
+    @statuses [:ready, :dispatch]
     def version do
         @version
     end
-    def delivered?(status) when status in @status do
-        true
+    def delivered(status) when status in @statuses do
+        "Not delivered"
     end
-    def delivered?(_status) do
-        false
+    def delivered(_status) do
+        "Delivered"
     end
 end
 ```
-`Playground.version` will return 5
+`Playground.version` will return 5  
+`Playground.delivered(:ready)` will return `Not delivered`  
+`Playground.delivered(:delivered)` will return `Delivered`

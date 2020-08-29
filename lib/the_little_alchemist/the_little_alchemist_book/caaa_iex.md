@@ -2,9 +2,11 @@ I am hearing "Where is the code?".Here it is.
 - To run the codes we discussed earlier, install elixir using homebrew or linuxbrew.
 - Go to any terminal and type `iex`. You will be presented with an iex environment where we can play with the values.
 Don't get angry. Typing those values would just print back the values.  
-To really play with it we need variables, operators and functions.
+Till now we saw only values and how to represent them.  
+To really play with it we need **variables, operators and functions**.
 
-### variables
+### variables  
+variables are used to reuse values without printing them repeatedly.
 - `a = 1`
 - `age = 30`
 - `name = "Alchemist"`

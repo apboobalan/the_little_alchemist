@@ -15,3 +15,4 @@ Other examples
         false
     end
 ```
+Here we accidentally introduced `?` at the end of function name. It doesn't affect anything. It's just convention in Elixir to use question mark at the end of function to denote that function returns either `true` or `false`.

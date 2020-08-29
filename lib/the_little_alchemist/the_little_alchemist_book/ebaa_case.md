@@ -5,7 +5,7 @@ case (variable or function call) do
     case_2 -> do otherthing.
 end
 ```
-where case_1 or case_2 are patterns which can match the variable or the result of function call.
+where `case_1` or `case_2` are patterns which can match the variable or the result of function call.
 ```elixir
 def case_example(variable) do
     case variable do
@@ -27,4 +27,4 @@ Let's see the results of calling the funciton with different inputs.
 `Playground.case_example(5)` will give back "Match not found"  
 `Playground.case_example(:anything)` will give back "Match not found"  
 `Playground.case_example("anything")` will give back "Match not found"  
->We use \_ here. \_ is prepended with a variable, which is not used further. If we want to print the value of unmathced value, then we would write the last condition as `value -> "Match not found for #{value}"`
+>We use \_ here. variable is prepended with \_, which is not used further. If we want to print the value of unmathced value, then we would write the last condition as `value -> "Match not found for #{value}"`

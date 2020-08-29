@@ -1,4 +1,4 @@
-We have seen using guard clauses in functions. To improve readability we have `defgaurd`
+We have seen using guard clauses in functions. To improve readability we have `defguard`
 ```elixir
 defmodule Playground do
 
@@ -12,4 +12,4 @@ defmodule Playground do
     end
 end
 ```
-This is just to improve readability. Another example would be to check `age >= 18`. Instead of just having this condition, we can name it as `defguard is_eligible_to_vote(age) when age >= 18` increases readability.
+This is just to enhance readability. Another example would be to check `age >= 18`. Instead of just having this condition, we can name it as `defguard is_eligible_to_vote(age) when age >= 18`, which enhances readability.

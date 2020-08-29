@@ -1,6 +1,7 @@
 ### summary
 In pattern matching, if left side is just variable, the value on right side is assigned to the variable.  
 If variable has pin `^` operator, then the value already assigned to variable is checked with the right side.  
+(Don't worry about `^` for now. Will see it later)
  
 `x = 5` is a match.  
 `^x = 5` is a match because x already has 5.  

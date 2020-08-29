@@ -1,4 +1,4 @@
-`with` is added to Elixir to solve the nested case problem.
+`with` is added to Elixir to solve the nested `case` problem.
 ```elixir
 def nested_case(arg) do
     case do_frist_operation(arg) do
@@ -11,7 +11,7 @@ def nested_case(arg) do
     end
 end
 ```
-Instead of nesting case, we can add with. What `with` does is it passes when all the correct conditions are satisfied, else it errors and performs the `else` block.
+Instead of nesting `case`, we can add `with`. What `with` does is, it succeeds when all the conditions are satisfied, else it errors and performs the `else` block.
 ```elixir
 def with_example(arg) do
     with {:ok, result1} <- do_first_operation(arg),

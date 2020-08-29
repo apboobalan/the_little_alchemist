@@ -7,4 +7,4 @@ Does it seem odd. Here comes the pipe.
 `1 |> inc.() |> inc.() |> inc.()` will give 4.  
 This would increase readability.
 
-So the result of the previous expression is passed as the first argument to the next function.
+So the **result** of the previous expression is passed as the **first argument** to the next function.

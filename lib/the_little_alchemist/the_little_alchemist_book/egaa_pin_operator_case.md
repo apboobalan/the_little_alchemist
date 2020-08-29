@@ -19,4 +19,4 @@ def match_for(a, b, c, c) do
     end
 end
 ```
-Because of the power of pattern mathing and pin operator we can express the same logic shortly and clearly.
+Because of the power of **pattern mathing** and **pin operator** we can express the same logic shortly and clearly.
